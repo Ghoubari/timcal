@@ -6,6 +6,7 @@ import { authMiddleware } from "@clerk/nextjs";
    3. Pass a custom `afterAuth` to authMiddleware, and replace Clerk's default behavior of redirecting unless a route is included in publicRoutes
  */
 export default authMiddleware({
+  publicRoutes: ["/api/webhooks/clerk"],
 });
 
 export const config = {

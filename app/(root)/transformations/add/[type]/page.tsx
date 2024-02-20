@@ -1,6 +1,11 @@
+import Header from "@/components/shared/Header"
+
 const AddTransformationTypePage  = () => {
   return (
-    <div>Page de création d'un planning</div>
+    <Header 
+      title="Add Transformation Type"
+      subtitle="Add a new transformation type"
+    />
   )
 }
 

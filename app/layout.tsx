@@ -29,14 +29,14 @@ export default function RootLayout({
     >
       <html lang="en" suppressHydrationWarning={true}>
         <body className={cn("font-IBMPlex antialised", IBMPlex.variable)}>
-          <ThemeProvider
+          {/* <ThemeProvider
             attribute="class"
-            defaultTheme="system"
-            // enableSystem
-            // disableTransitionOnChange
-          >
+            defaultTheme="system" */}
+            {/* // enableSystem
+            // disableTransitionOnChange */}
+          {/* > */}
             {children}
-          </ThemeProvider>
+          {/* </ThemeProvider> */}
         </body>
       </html>
     </ClerkProvider>
